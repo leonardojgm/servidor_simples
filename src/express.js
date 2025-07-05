@@ -13,6 +13,6 @@ router.get("/contato", (req, res) => {
 });
 
 app.use(router);
-app.listen(port, () => {
+app.listen(process.env.PORT || port, () => {
     console.log(`Servidor rodando at http://localhost:${port}/`);
 });

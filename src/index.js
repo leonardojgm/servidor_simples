@@ -8,6 +8,6 @@ const server = http.createServer((req, res) => {
     res.end("Hello World!");
 })
 
-server.listen(port, hostname, () => {
+server.listen(rocess.env.PORT, hostname, () => {
     console.log(`Servidor rodando at http://${hostname}:${port}/`);
 })
