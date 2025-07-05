@@ -1,0 +1,21 @@
+{
+  "name": "getting_start_node",
+  "version": "1.0.0",
+  "description": "Aplicação de estudo de nodejs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "express": "node src/express.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "aula",
+    "youtube",
+    "getting start"
+  ],
+  "author": "leonardo-maia",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
